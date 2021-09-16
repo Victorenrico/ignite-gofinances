@@ -32,9 +32,24 @@ export function Dashboard() {
             </Header>
 
             <HighLightCards>
-                <HighLightCard />
-                <HighLightCard />
-                <HighLightCard />
+                <HighLightCard 
+                    type="up"
+                    title="Entradas" 
+                    amount="R$ 17.000,00" 
+                    lastTransaction="Data aqui"
+                />
+                <HighLightCard 
+                    type="down"
+                    title="Saídas" 
+                    amount="R$ 12.000,00" 
+                    lastTransaction="Data aqui" 
+                />
+                <HighLightCard
+                    type="total"
+                    title="Total" 
+                    amount="R$ 16.000,00" 
+                    lastTransaction="Data aqui" 
+                />
             </HighLightCards>
         </Container>
     );
